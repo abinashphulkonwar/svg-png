@@ -1,0 +1,6 @@
+svg
+node_modules
+*.txt
+*.svg
+*.png
+*.jpeg
