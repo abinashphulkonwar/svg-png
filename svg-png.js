@@ -7,7 +7,7 @@ const ConvertSvgToPng = async (svgPath, outputPath) => {
   const buffer = Buffer.from(data);
 
   await sharp(buffer)
-    .resize(800)
+    .resize(1020)
     .png({ quality: 100 })
     .toFile(outputPath) // Change 'output.jpg' for JPG
     .then(() => {
